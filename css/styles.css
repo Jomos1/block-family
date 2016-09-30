@@ -1,0 +1,11 @@
+html {
+	font-family: 'Sarpanch', sans-serif;
+}
+
+div #lol {
+	border-radius: 25px;
+    border: 2px solid #89818A;
+    padding: 20px;
+    width: 400px;
+    height: auto;
+}
