@@ -1,11 +1,72 @@
 html {
-	font-family: 'Sarpanch', sans-serif;
+	font-family: 'Indie Flower', cursive;
+
 }
 
-div #lol {
-	border-radius: 25px;
-    border: 2px solid #89818A;
-    padding: 20px;
-    width: 400px;
-    height: auto;
+body {
+	background-color: lightgrey;
+
 }
+
+
+/*For desktop: */
+div #lol {
+    border: 2px solid blue;
+    padding: 20px;
+    width: 95%;
+    height: auto;
+    background-color: aqua;
+    margin: 20px 0px;
+    margin-left: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+
+/*Medium screen 900px to 1000px*/
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+	body{
+		background-color: lightgreen;
+	}
+}
+
+#lol {
+	display: inline-block;
+}
+
+}
+
+/*Small screen 400px to 800px*/
+@media screen and (min-width: 400px) and (max-width: 799px) {
+	body{
+		background-color: orangered;
+	}
+}
+#lol {
+	display:inline-block;
+}
+
+/*Fossils at this point.*/
+@media screen and (min-width: 1px) and (max-width: 399px) {
+	body{
+		background-color: magenta;
+	}
+}
+
+#lol {
+	display: inline-block;
+	width: 35%;
+}
+
+
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
