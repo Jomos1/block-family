@@ -31,7 +31,7 @@ div .lol {
 	}
 }
 
-#lol {
+.lol {
 	display: inline-block;
 }
 
@@ -43,7 +43,7 @@ div .lol {
 		background-color: orangered;
 	}
 }
-#lol {
+.lol {
 	display:inline-block;
 }
 
@@ -54,7 +54,7 @@ div .lol {
 	}
 }
 
-#lol {
+.lol {
 	display: inline-block;
 	width: 35%;
 }
