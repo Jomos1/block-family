@@ -10,7 +10,7 @@ body {
 
 
 /*For desktop: */
-div #lol {
+div .lol {
     border: 2px solid blue;
     padding: 20px;
     width: 95%;
